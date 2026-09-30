@@ -1,0 +1,28 @@
+# 编译产物
+/target
+**/*.rs.bk
+
+# 本地环境
+.env
+.env.local
+*.local.toml
+
+# 数据库与数据文件（开发用）
+.dev/
+*.db
+*.db-wal
+*.db-shm
+
+# 照片与上传中转（运行时数据，不入库）
+data/
+photos/
+tmp/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# 日志
+*.log
